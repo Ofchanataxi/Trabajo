@@ -1,0 +1,878 @@
+{
+  "organization" : "Schlumberger",
+  "requestToken" : "0d47a77301a664da7be48aadf68cc63801760741225738",
+  "existingProjects" : {
+    "DHS (Documento Habilitante Smart)-EAR-AA-26200 - Backend Python" : {
+      "children" : [ {
+        "resource" : {
+          "displayName" : "fastapi-0.119.0-py3-none-any.whl",
+          "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=a71a9ce4-c027-4aff-ada4-0c82eccb695a",
+          "licenses" : [ "MIT" ],
+          "sha1" : "a5efb1faae6f2c8f870252b6094147e829fae21a",
+          "vulnerabilities" : [ ],
+          "ignoredVulnerabilities" : [ ],
+          "keyUuid" : "a71a9ce4-c027-4aff-ada4-0c82eccb695a",
+          "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\fastapi-0.119.0.dist-info",
+          "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+        },
+        "children" : [ {
+          "resource" : {
+            "displayName" : "pydantic-2.12.3-py3-none-any.whl",
+            "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=0d41d721-68c8-403d-be02-9e881fc6db12",
+            "licenses" : [ ],
+            "sha1" : "bd22711417ccb1f44259978a4edcba0e78093f2c",
+            "vulnerabilities" : [ ],
+            "ignoredVulnerabilities" : [ ],
+            "keyUuid" : "0d41d721-68c8-403d-be02-9e881fc6db12",
+            "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\pydantic-2.12.3.dist-info",
+            "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+          },
+          "policy" : {
+            "displayName" : "File with Requires Review",
+            "filterType" : "LICENSE",
+            "filterLogic" : "\\QRequires Review\\E",
+            "actionType" : "Reject",
+            "projectLevel" : false,
+            "inclusive" : false,
+            "policyLevel" : "DOMAIN"
+          },
+          "children" : [ {
+            "resource" : {
+              "displayName" : "typing_inspection-0.4.2-py3-none-any.whl",
+              "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=10835eae-5e5c-4a72-a4c2-d7ee6a1204b6",
+              "licenses" : [ "MIT" ],
+              "sha1" : "e26098755dffc3aaead1e9d696fcfe8a23877a3a",
+              "vulnerabilities" : [ ],
+              "ignoredVulnerabilities" : [ ],
+              "keyUuid" : "10835eae-5e5c-4a72-a4c2-d7ee6a1204b6",
+              "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\typing_inspection-0.4.2.dist-info",
+              "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+            },
+            "children" : [ {
+              "resource" : {
+                "displayName" : "typing_extensions-4.15.0-py3-none-any.whl",
+                "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=6dfe75ba-37db-4713-bd42-7c078e1f06d6",
+                "licenses" : [ "Python Software Foundation License 2.0" ],
+                "sha1" : "807e4d7ccad443949cbe10eae99937fd71c2b0c8",
+                "vulnerabilities" : [ ],
+                "ignoredVulnerabilities" : [ ],
+                "keyUuid" : "6dfe75ba-37db-4713-bd42-7c078e1f06d6",
+                "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\typing_extensions-4.15.0.dist-info",
+                "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+              },
+              "children" : [ ]
+            } ]
+          }, {
+            "resource" : {
+              "displayName" : "typing_extensions-4.15.0-py3-none-any.whl",
+              "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=6dfe75ba-37db-4713-bd42-7c078e1f06d6",
+              "licenses" : [ "Python Software Foundation License 2.0" ],
+              "sha1" : "807e4d7ccad443949cbe10eae99937fd71c2b0c8",
+              "vulnerabilities" : [ ],
+              "ignoredVulnerabilities" : [ ],
+              "keyUuid" : "6dfe75ba-37db-4713-bd42-7c078e1f06d6",
+              "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\typing_extensions-4.15.0.dist-info",
+              "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+            },
+            "children" : [ ]
+          }, {
+            "resource" : {
+              "displayName" : "annotated_types-0.7.0-py3-none-any.whl",
+              "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=19a502dd-b0b9-4ea0-9ea3-fd12dd227e3e",
+              "licenses" : [ "MIT" ],
+              "sha1" : "ea2dd11b884eb6bc96d35b81d764010aa19eb952",
+              "vulnerabilities" : [ ],
+              "ignoredVulnerabilities" : [ ],
+              "keyUuid" : "19a502dd-b0b9-4ea0-9ea3-fd12dd227e3e",
+              "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\annotated_types-0.7.0.dist-info",
+              "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+            },
+            "children" : [ ]
+          }, {
+            "resource" : {
+              "displayName" : "pydantic_core-2.41.4-cp311-cp311-win_amd64.whl",
+              "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=2fdfc3c6-ae79-4cc9-9ad9-4c982458c7d7",
+              "licenses" : [ ],
+              "sha1" : "ce11026e802df9b93d1c526f3270b2d36f8408b7",
+              "vulnerabilities" : [ ],
+              "ignoredVulnerabilities" : [ ],
+              "keyUuid" : "2fdfc3c6-ae79-4cc9-9ad9-4c982458c7d7",
+              "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\pydantic_core-2.41.4.dist-info",
+              "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+            },
+            "policy" : {
+              "displayName" : "File with Requires Review",
+              "filterType" : "LICENSE",
+              "filterLogic" : "\\QRequires Review\\E",
+              "actionType" : "Reject",
+              "projectLevel" : false,
+              "inclusive" : false,
+              "policyLevel" : "DOMAIN"
+            },
+            "children" : [ {
+              "resource" : {
+                "displayName" : "typing_extensions-4.15.0-py3-none-any.whl",
+                "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=6dfe75ba-37db-4713-bd42-7c078e1f06d6",
+                "licenses" : [ "Python Software Foundation License 2.0" ],
+                "sha1" : "807e4d7ccad443949cbe10eae99937fd71c2b0c8",
+                "vulnerabilities" : [ ],
+                "ignoredVulnerabilities" : [ ],
+                "keyUuid" : "6dfe75ba-37db-4713-bd42-7c078e1f06d6",
+                "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\typing_extensions-4.15.0.dist-info",
+                "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+              },
+              "children" : [ ]
+            } ]
+          } ]
+        }, {
+          "resource" : {
+            "displayName" : "typing_extensions-4.15.0-py3-none-any.whl",
+            "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=6dfe75ba-37db-4713-bd42-7c078e1f06d6",
+            "licenses" : [ "Python Software Foundation License 2.0" ],
+            "sha1" : "807e4d7ccad443949cbe10eae99937fd71c2b0c8",
+            "vulnerabilities" : [ ],
+            "ignoredVulnerabilities" : [ ],
+            "keyUuid" : "6dfe75ba-37db-4713-bd42-7c078e1f06d6",
+            "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\typing_extensions-4.15.0.dist-info",
+            "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+          },
+          "children" : [ ]
+        }, {
+          "resource" : {
+            "displayName" : "starlette-0.48.0-py3-none-any.whl",
+            "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=71997ed4-5e89-4a5f-b0fd-3fa75b7798dc",
+            "licenses" : [ "BSD 3" ],
+            "sha1" : "57f2719980bd0d7de05316c10f2f0327c6373db8",
+            "vulnerabilities" : [ ],
+            "ignoredVulnerabilities" : [ ],
+            "keyUuid" : "71997ed4-5e89-4a5f-b0fd-3fa75b7798dc",
+            "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\starlette-0.48.0.dist-info",
+            "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+          },
+          "policy" : {
+            "displayName" : "BSD",
+            "filterType" : "LICENSE",
+            "filterLogic" : "\\QBSD 2\\E|\\QBSD 2 FreeBSD\\E|\\QBSD 2 NetBSD\\E|\\QBSD 3\\E|\\QBSD 3 Clear\\E|\\QBSD 4\\E|\\QBSD 4 UC\\E|\\QBSD Zero\\E",
+            "actionType" : "Approve",
+            "projectLevel" : false,
+            "inclusive" : false,
+            "policyLevel" : "DOMAIN"
+          },
+          "children" : [ {
+            "resource" : {
+              "displayName" : "anyio-4.11.0-py3-none-any.whl",
+              "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=5b77ccc5-331a-494e-8908-650817fd2e07",
+              "licenses" : [ "MIT" ],
+              "sha1" : "a0d95ce13538610cc8011fe7687ae3bc0f885758",
+              "vulnerabilities" : [ ],
+              "ignoredVulnerabilities" : [ ],
+              "keyUuid" : "5b77ccc5-331a-494e-8908-650817fd2e07",
+              "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\anyio-4.11.0.dist-info",
+              "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+            },
+            "children" : [ {
+              "resource" : {
+                "displayName" : "sniffio-1.3.1-py3-none-any.whl",
+                "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=f0958110-37e6-4294-aa17-f5edacf74ef4",
+                "licenses" : [ "Apache 2.0", "MIT" ],
+                "sha1" : "bd8d1ec2b285eed542c53ca22232e6e9e468c389",
+                "vulnerabilities" : [ ],
+                "ignoredVulnerabilities" : [ ],
+                "keyUuid" : "f0958110-37e6-4294-aa17-f5edacf74ef4",
+                "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\sniffio-1.3.1.dist-info",
+                "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+              },
+              "policy" : {
+                "displayName" : " Apache",
+                "filterType" : "LICENSE",
+                "filterLogic" : "\\QApache 1.0\\E|\\QApache 1.1\\E|\\QApache 2.0\\E",
+                "actionType" : "Approve",
+                "projectLevel" : false,
+                "inclusive" : false,
+                "policyLevel" : "DOMAIN"
+              },
+              "children" : [ ]
+            }, {
+              "resource" : {
+                "displayName" : "idna-3.11-py3-none-any.whl",
+                "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=626de63b-389e-4bbd-80d8-189768a2b21b",
+                "licenses" : [ "BSD 3" ],
+                "sha1" : "b656add136d8a54445605020055e18a942352fa2",
+                "vulnerabilities" : [ ],
+                "ignoredVulnerabilities" : [ ],
+                "keyUuid" : "626de63b-389e-4bbd-80d8-189768a2b21b",
+                "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\idna-3.11.dist-info",
+                "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+              },
+              "policy" : {
+                "displayName" : "BSD",
+                "filterType" : "LICENSE",
+                "filterLogic" : "\\QBSD 2\\E|\\QBSD 2 FreeBSD\\E|\\QBSD 2 NetBSD\\E|\\QBSD 3\\E|\\QBSD 3 Clear\\E|\\QBSD 4\\E|\\QBSD 4 UC\\E|\\QBSD Zero\\E",
+                "actionType" : "Approve",
+                "projectLevel" : false,
+                "inclusive" : false,
+                "policyLevel" : "DOMAIN"
+              },
+              "children" : [ ]
+            }, {
+              "resource" : {
+                "displayName" : "typing_extensions-4.15.0-py3-none-any.whl",
+                "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=6dfe75ba-37db-4713-bd42-7c078e1f06d6",
+                "licenses" : [ "Python Software Foundation License 2.0" ],
+                "sha1" : "807e4d7ccad443949cbe10eae99937fd71c2b0c8",
+                "vulnerabilities" : [ ],
+                "ignoredVulnerabilities" : [ ],
+                "keyUuid" : "6dfe75ba-37db-4713-bd42-7c078e1f06d6",
+                "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\typing_extensions-4.15.0.dist-info",
+                "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+              },
+              "children" : [ ]
+            } ]
+          }, {
+            "resource" : {
+              "displayName" : "typing_extensions-4.15.0-py3-none-any.whl",
+              "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=6dfe75ba-37db-4713-bd42-7c078e1f06d6",
+              "licenses" : [ "Python Software Foundation License 2.0" ],
+              "sha1" : "807e4d7ccad443949cbe10eae99937fd71c2b0c8",
+              "vulnerabilities" : [ ],
+              "ignoredVulnerabilities" : [ ],
+              "keyUuid" : "6dfe75ba-37db-4713-bd42-7c078e1f06d6",
+              "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\typing_extensions-4.15.0.dist-info",
+              "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+            },
+            "children" : [ ]
+          } ]
+        } ]
+      }, {
+        "resource" : {
+          "displayName" : "gunicorn-23.0.0-py3-none-any.whl",
+          "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=01c38836-e399-4516-aab7-da27e6e46594",
+          "licenses" : [ "MIT" ],
+          "sha1" : "cd4c15b80880335f974e976ec1d293dd715aa457",
+          "vulnerabilities" : [ ],
+          "ignoredVulnerabilities" : [ ],
+          "keyUuid" : "01c38836-e399-4516-aab7-da27e6e46594",
+          "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\gunicorn-23.0.0.dist-info",
+          "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+        },
+        "children" : [ {
+          "resource" : {
+            "displayName" : "packaging-25.0-py3-none-any.whl",
+            "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=f48a2a65-e61f-4244-be08-8f357fa2f662",
+            "licenses" : [ "BSD", "Apache 2.0" ],
+            "sha1" : "e218b5c44c84d06630100f7414550f7f4d8baa2c",
+            "vulnerabilities" : [ ],
+            "ignoredVulnerabilities" : [ ],
+            "keyUuid" : "f48a2a65-e61f-4244-be08-8f357fa2f662",
+            "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\packaging-25.0.dist-info",
+            "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+          },
+          "policy" : {
+            "displayName" : " Apache",
+            "filterType" : "LICENSE",
+            "filterLogic" : "\\QApache 1.0\\E|\\QApache 1.1\\E|\\QApache 2.0\\E",
+            "actionType" : "Approve",
+            "projectLevel" : false,
+            "inclusive" : false,
+            "policyLevel" : "DOMAIN"
+          },
+          "children" : [ ]
+        } ]
+      }, {
+        "resource" : {
+          "displayName" : "openpyxl-3.1.5-py2.py3-none-any.whl",
+          "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=a46a8cda-c24a-4c61-9156-17fa6a9fb5ed",
+          "licenses" : [ "MIT" ],
+          "sha1" : "36fc73575c36117615e27d7443458b1d02d593c7",
+          "vulnerabilities" : [ ],
+          "ignoredVulnerabilities" : [ ],
+          "keyUuid" : "a46a8cda-c24a-4c61-9156-17fa6a9fb5ed",
+          "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\openpyxl-3.1.5.dist-info",
+          "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+        },
+        "children" : [ {
+          "resource" : {
+            "displayName" : "et_xmlfile-2.0.0-py3-none-any.whl",
+            "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=2271ea20-6e54-4a09-86c5-1ad75cf0b2ad",
+            "licenses" : [ "Python 2.0", "MIT" ],
+            "sha1" : "faedf5285befc808795a60bd400c12f00c1a939d",
+            "vulnerabilities" : [ ],
+            "ignoredVulnerabilities" : [ ],
+            "keyUuid" : "2271ea20-6e54-4a09-86c5-1ad75cf0b2ad",
+            "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\et_xmlfile-2.0.0.dist-info",
+            "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+          },
+          "children" : [ ]
+        } ]
+      }, {
+        "resource" : {
+          "displayName" : "pandas-2.3.3-cp310-cp310-macosx_10_9_x86_64.whl",
+          "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=79e61826-8445-41c3-b5ad-62c21bf01d3e",
+          "licenses" : [ "Python 2.0", "Apache 2.0", "MIT", "BSD 3" ],
+          "sha1" : "2b72bd73c6f775cf878393086368a2a286e6e768",
+          "vulnerabilities" : [ ],
+          "ignoredVulnerabilities" : [ ],
+          "keyUuid" : "79e61826-8445-41c3-b5ad-62c21bf01d3e",
+          "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\pandas-2.3.3.dist-info",
+          "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+        },
+        "policy" : {
+          "displayName" : "BSD",
+          "filterType" : "LICENSE",
+          "filterLogic" : "\\QBSD 2\\E|\\QBSD 2 FreeBSD\\E|\\QBSD 2 NetBSD\\E|\\QBSD 3\\E|\\QBSD 3 Clear\\E|\\QBSD 4\\E|\\QBSD 4 UC\\E|\\QBSD Zero\\E",
+          "actionType" : "Approve",
+          "projectLevel" : false,
+          "inclusive" : false,
+          "policyLevel" : "DOMAIN"
+        },
+        "children" : [ {
+          "resource" : {
+            "displayName" : "tzdata-2025.2-py2.py3-none-any.whl",
+            "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=8cc927ef-4b6e-4306-8269-6584fd732538",
+            "licenses" : [ "Apache 2.0" ],
+            "sha1" : "ee35670ca8d6ed79ae83e9e814402039f3c3c11d",
+            "vulnerabilities" : [ ],
+            "ignoredVulnerabilities" : [ ],
+            "keyUuid" : "8cc927ef-4b6e-4306-8269-6584fd732538",
+            "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\tzdata-2025.2.dist-info",
+            "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+          },
+          "policy" : {
+            "displayName" : " Apache",
+            "filterType" : "LICENSE",
+            "filterLogic" : "\\QApache 1.0\\E|\\QApache 1.1\\E|\\QApache 2.0\\E",
+            "actionType" : "Approve",
+            "projectLevel" : false,
+            "inclusive" : false,
+            "policyLevel" : "DOMAIN"
+          },
+          "children" : [ ]
+        }, {
+          "resource" : {
+            "displayName" : "numpy-2.3.4-cp311-cp311-win_amd64.whl",
+            "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=f33ce0d1-9d13-46f4-8a34-c29444988f7c",
+            "licenses" : [ ],
+            "sha1" : "1d0c77cfe855c119534f2f27029118a49f249454",
+            "vulnerabilities" : [ ],
+            "ignoredVulnerabilities" : [ ],
+            "keyUuid" : "f33ce0d1-9d13-46f4-8a34-c29444988f7c",
+            "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\numpy-2.3.4.dist-info",
+            "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+          },
+          "policy" : {
+            "displayName" : "File with Requires Review",
+            "filterType" : "LICENSE",
+            "filterLogic" : "\\QRequires Review\\E",
+            "actionType" : "Reject",
+            "projectLevel" : false,
+            "inclusive" : false,
+            "policyLevel" : "DOMAIN"
+          },
+          "children" : [ ]
+        }, {
+          "resource" : {
+            "displayName" : "python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+            "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=71f6c098-e924-430d-8175-afe23e862847",
+            "licenses" : [ "Apache 2.0", "BSD 3" ],
+            "sha1" : "323a8e8de7e00a254fadae9c77b1264d56525178",
+            "vulnerabilities" : [ ],
+            "ignoredVulnerabilities" : [ ],
+            "keyUuid" : "71f6c098-e924-430d-8175-afe23e862847",
+            "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\python_dateutil-2.9.0.post0.dist-info",
+            "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+          },
+          "policy" : {
+            "displayName" : "BSD",
+            "filterType" : "LICENSE",
+            "filterLogic" : "\\QBSD 2\\E|\\QBSD 2 FreeBSD\\E|\\QBSD 2 NetBSD\\E|\\QBSD 3\\E|\\QBSD 3 Clear\\E|\\QBSD 4\\E|\\QBSD 4 UC\\E|\\QBSD Zero\\E",
+            "actionType" : "Approve",
+            "projectLevel" : false,
+            "inclusive" : false,
+            "policyLevel" : "DOMAIN"
+          },
+          "children" : [ {
+            "resource" : {
+              "displayName" : "six-1.17.0-py2.py3-none-any.whl",
+              "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=f188a820-d84f-461b-9767-f27ef974dc2b",
+              "licenses" : [ "MIT" ],
+              "sha1" : "6e8f2653019f7cfb05196f8f08b9a905eab3d8dd",
+              "vulnerabilities" : [ ],
+              "ignoredVulnerabilities" : [ ],
+              "keyUuid" : "f188a820-d84f-461b-9767-f27ef974dc2b",
+              "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\six-1.17.0.dist-info",
+              "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+            },
+            "children" : [ ]
+          } ]
+        }, {
+          "resource" : {
+            "displayName" : "pytz-2025.2-py2.py3-none-any.whl",
+            "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=60beaf35-7b8b-4ca6-b1cd-2353bf955da2",
+            "licenses" : [ "MIT" ],
+            "sha1" : "fe7938b9d92a0da600ee2af52538405e769fbca4",
+            "vulnerabilities" : [ ],
+            "ignoredVulnerabilities" : [ ],
+            "keyUuid" : "60beaf35-7b8b-4ca6-b1cd-2353bf955da2",
+            "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\pytz-2025.2.dist-info",
+            "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+          },
+          "children" : [ ]
+        } ]
+      }, {
+        "resource" : {
+          "displayName" : "python_multipart-0.0.20-py3-none-any.whl",
+          "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=5e7ba6ec-0ac4-4e24-8e23-07dda645d296",
+          "licenses" : [ "Apache 2.0" ],
+          "sha1" : "9b1ef975f223db318d002624028b85fab7290f96",
+          "vulnerabilities" : [ ],
+          "ignoredVulnerabilities" : [ ],
+          "keyUuid" : "5e7ba6ec-0ac4-4e24-8e23-07dda645d296",
+          "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\python_multipart-0.0.20.dist-info",
+          "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+        },
+        "policy" : {
+          "displayName" : " Apache",
+          "filterType" : "LICENSE",
+          "filterLogic" : "\\QApache 1.0\\E|\\QApache 1.1\\E|\\QApache 2.0\\E",
+          "actionType" : "Approve",
+          "projectLevel" : false,
+          "inclusive" : false,
+          "policyLevel" : "DOMAIN"
+        },
+        "children" : [ ]
+      }, {
+        "resource" : {
+          "displayName" : "tabula_py-2.10.0-py3-none-any.whl",
+          "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=b4fca367-00e6-448a-8a91-3753ed1724ea",
+          "licenses" : [ "MIT" ],
+          "sha1" : "b2c8775f82678274af26f7ceb10892aab82887c3",
+          "vulnerabilities" : [ ],
+          "ignoredVulnerabilities" : [ ],
+          "keyUuid" : "b4fca367-00e6-448a-8a91-3753ed1724ea",
+          "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\tabula_py-2.10.0.dist-info",
+          "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+        },
+        "children" : [ {
+          "resource" : {
+            "displayName" : "distro-1.9.0-py3-none-any.whl",
+            "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=37a92f5e-57f6-4c34-a4e8-bc9444f9d898",
+            "licenses" : [ "Apache 2.0" ],
+            "sha1" : "3e17370ee46be571cd9f858d53d1f2c9838df2e0",
+            "vulnerabilities" : [ ],
+            "ignoredVulnerabilities" : [ ],
+            "keyUuid" : "37a92f5e-57f6-4c34-a4e8-bc9444f9d898",
+            "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\distro-1.9.0.dist-info",
+            "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+          },
+          "policy" : {
+            "displayName" : " Apache",
+            "filterType" : "LICENSE",
+            "filterLogic" : "\\QApache 1.0\\E|\\QApache 1.1\\E|\\QApache 2.0\\E",
+            "actionType" : "Approve",
+            "projectLevel" : false,
+            "inclusive" : false,
+            "policyLevel" : "DOMAIN"
+          },
+          "children" : [ ]
+        }, {
+          "resource" : {
+            "displayName" : "numpy-2.3.4-cp311-cp311-win_amd64.whl",
+            "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=f33ce0d1-9d13-46f4-8a34-c29444988f7c",
+            "licenses" : [ ],
+            "sha1" : "1d0c77cfe855c119534f2f27029118a49f249454",
+            "vulnerabilities" : [ ],
+            "ignoredVulnerabilities" : [ ],
+            "keyUuid" : "f33ce0d1-9d13-46f4-8a34-c29444988f7c",
+            "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\numpy-2.3.4.dist-info",
+            "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+          },
+          "policy" : {
+            "displayName" : "File with Requires Review",
+            "filterType" : "LICENSE",
+            "filterLogic" : "\\QRequires Review\\E",
+            "actionType" : "Reject",
+            "projectLevel" : false,
+            "inclusive" : false,
+            "policyLevel" : "DOMAIN"
+          },
+          "children" : [ ]
+        }, {
+          "resource" : {
+            "displayName" : "pandas-2.3.3-cp310-cp310-macosx_10_9_x86_64.whl",
+            "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=79e61826-8445-41c3-b5ad-62c21bf01d3e",
+            "licenses" : [ "Python 2.0", "Apache 2.0", "MIT", "BSD 3" ],
+            "sha1" : "2b72bd73c6f775cf878393086368a2a286e6e768",
+            "vulnerabilities" : [ ],
+            "ignoredVulnerabilities" : [ ],
+            "keyUuid" : "79e61826-8445-41c3-b5ad-62c21bf01d3e",
+            "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\pandas-2.3.3.dist-info",
+            "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+          },
+          "policy" : {
+            "displayName" : "BSD",
+            "filterType" : "LICENSE",
+            "filterLogic" : "\\QBSD 2\\E|\\QBSD 2 FreeBSD\\E|\\QBSD 2 NetBSD\\E|\\QBSD 3\\E|\\QBSD 3 Clear\\E|\\QBSD 4\\E|\\QBSD 4 UC\\E|\\QBSD Zero\\E",
+            "actionType" : "Approve",
+            "projectLevel" : false,
+            "inclusive" : false,
+            "policyLevel" : "DOMAIN"
+          },
+          "children" : [ ]
+        } ]
+      }, {
+        "resource" : {
+          "displayName" : "uvicorn-0.37.0-py3-none-any.whl",
+          "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=d74d6cb8-94a6-4ce1-8154-f895e2bc7e5d",
+          "licenses" : [ "BSD 3" ],
+          "sha1" : "f27d29b1b338a14d09a38902349f5ab2c2b8f49f",
+          "vulnerabilities" : [ ],
+          "ignoredVulnerabilities" : [ ],
+          "keyUuid" : "d74d6cb8-94a6-4ce1-8154-f895e2bc7e5d",
+          "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\uvicorn-0.37.0.dist-info",
+          "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+        },
+        "policy" : {
+          "displayName" : "BSD",
+          "filterType" : "LICENSE",
+          "filterLogic" : "\\QBSD 2\\E|\\QBSD 2 FreeBSD\\E|\\QBSD 2 NetBSD\\E|\\QBSD 3\\E|\\QBSD 3 Clear\\E|\\QBSD 4\\E|\\QBSD 4 UC\\E|\\QBSD Zero\\E",
+          "actionType" : "Approve",
+          "projectLevel" : false,
+          "inclusive" : false,
+          "policyLevel" : "DOMAIN"
+        },
+        "children" : [ {
+          "resource" : {
+            "displayName" : "h11-0.16.0-py3-none-any.whl",
+            "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=9863e4c0-6bbf-4aef-95fe-85d6a56009f1",
+            "licenses" : [ "MIT" ],
+            "sha1" : "85c55a0fab05a1e1c94ce893467ef04cc0f8a62f",
+            "vulnerabilities" : [ ],
+            "ignoredVulnerabilities" : [ ],
+            "keyUuid" : "9863e4c0-6bbf-4aef-95fe-85d6a56009f1",
+            "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\h11-0.16.0.dist-info",
+            "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+          },
+          "children" : [ ]
+        }, {
+          "resource" : {
+            "displayName" : "click-8.3.0-py3-none-any.whl",
+            "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=4b1f3e0e-f49e-4322-9b4d-e7caf27a8006",
+            "licenses" : [ "BSD 3" ],
+            "sha1" : "097f0bedc3576f6d7408516ec158505c45861ffb",
+            "vulnerabilities" : [ ],
+            "ignoredVulnerabilities" : [ ],
+            "keyUuid" : "4b1f3e0e-f49e-4322-9b4d-e7caf27a8006",
+            "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\click-8.3.0.dist-info",
+            "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+          },
+          "policy" : {
+            "displayName" : "BSD",
+            "filterType" : "LICENSE",
+            "filterLogic" : "\\QBSD 2\\E|\\QBSD 2 FreeBSD\\E|\\QBSD 2 NetBSD\\E|\\QBSD 3\\E|\\QBSD 3 Clear\\E|\\QBSD 4\\E|\\QBSD 4 UC\\E|\\QBSD Zero\\E",
+            "actionType" : "Approve",
+            "projectLevel" : false,
+            "inclusive" : false,
+            "policyLevel" : "DOMAIN"
+          },
+          "children" : [ {
+            "resource" : {
+              "displayName" : "colorama-0.4.6-py2.py3-none-any.whl",
+              "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=7cdd0adf-5970-4c1e-8939-0b5392fbf825",
+              "licenses" : [ "BSD 3" ],
+              "sha1" : "d6ab1608850fecfc0e1cf50bf93d743695c04027",
+              "vulnerabilities" : [ ],
+              "ignoredVulnerabilities" : [ ],
+              "keyUuid" : "7cdd0adf-5970-4c1e-8939-0b5392fbf825",
+              "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\colorama-0.4.6.dist-info",
+              "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+            },
+            "policy" : {
+              "displayName" : "BSD",
+              "filterType" : "LICENSE",
+              "filterLogic" : "\\QBSD 2\\E|\\QBSD 2 FreeBSD\\E|\\QBSD 2 NetBSD\\E|\\QBSD 3\\E|\\QBSD 3 Clear\\E|\\QBSD 4\\E|\\QBSD 4 UC\\E|\\QBSD Zero\\E",
+              "actionType" : "Approve",
+              "projectLevel" : false,
+              "inclusive" : false,
+              "policyLevel" : "DOMAIN"
+            },
+            "children" : [ ]
+          } ]
+        } ]
+      } ]
+    }
+  },
+  "newProjects" : { },
+  "projectNewResources" : {
+    "DHS (Documento Habilitante Smart)-EAR-AA-26200 - Backend Python" : [ {
+      "displayName" : "packaging-25.0-py3-none-any.whl",
+      "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=f48a2a65-e61f-4244-be08-8f357fa2f662",
+      "licenses" : [ "BSD", "Apache 2.0" ],
+      "sha1" : "e218b5c44c84d06630100f7414550f7f4d8baa2c",
+      "vulnerabilities" : [ ],
+      "ignoredVulnerabilities" : [ ],
+      "keyUuid" : "f48a2a65-e61f-4244-be08-8f357fa2f662",
+      "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\packaging-25.0.dist-info",
+      "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+    }, {
+      "displayName" : "python_multipart-0.0.20-py3-none-any.whl",
+      "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=5e7ba6ec-0ac4-4e24-8e23-07dda645d296",
+      "licenses" : [ "Apache 2.0" ],
+      "sha1" : "9b1ef975f223db318d002624028b85fab7290f96",
+      "vulnerabilities" : [ ],
+      "ignoredVulnerabilities" : [ ],
+      "keyUuid" : "5e7ba6ec-0ac4-4e24-8e23-07dda645d296",
+      "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\python_multipart-0.0.20.dist-info",
+      "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+    }, {
+      "displayName" : "numpy-2.3.4-cp311-cp311-win_amd64.whl",
+      "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=f33ce0d1-9d13-46f4-8a34-c29444988f7c",
+      "licenses" : [ ],
+      "sha1" : "1d0c77cfe855c119534f2f27029118a49f249454",
+      "vulnerabilities" : [ ],
+      "ignoredVulnerabilities" : [ ],
+      "keyUuid" : "f33ce0d1-9d13-46f4-8a34-c29444988f7c",
+      "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\numpy-2.3.4.dist-info",
+      "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+    }, {
+      "displayName" : "sniffio-1.3.1-py3-none-any.whl",
+      "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=f0958110-37e6-4294-aa17-f5edacf74ef4",
+      "licenses" : [ "Apache 2.0", "MIT" ],
+      "sha1" : "bd8d1ec2b285eed542c53ca22232e6e9e468c389",
+      "vulnerabilities" : [ ],
+      "ignoredVulnerabilities" : [ ],
+      "keyUuid" : "f0958110-37e6-4294-aa17-f5edacf74ef4",
+      "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\sniffio-1.3.1.dist-info",
+      "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+    }, {
+      "displayName" : "distro-1.9.0-py3-none-any.whl",
+      "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=37a92f5e-57f6-4c34-a4e8-bc9444f9d898",
+      "licenses" : [ "Apache 2.0" ],
+      "sha1" : "3e17370ee46be571cd9f858d53d1f2c9838df2e0",
+      "vulnerabilities" : [ ],
+      "ignoredVulnerabilities" : [ ],
+      "keyUuid" : "37a92f5e-57f6-4c34-a4e8-bc9444f9d898",
+      "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\distro-1.9.0.dist-info",
+      "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+    }, {
+      "displayName" : "colorama-0.4.6-py2.py3-none-any.whl",
+      "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=7cdd0adf-5970-4c1e-8939-0b5392fbf825",
+      "licenses" : [ "BSD 3" ],
+      "sha1" : "d6ab1608850fecfc0e1cf50bf93d743695c04027",
+      "vulnerabilities" : [ ],
+      "ignoredVulnerabilities" : [ ],
+      "keyUuid" : "7cdd0adf-5970-4c1e-8939-0b5392fbf825",
+      "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\colorama-0.4.6.dist-info",
+      "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+    }, {
+      "displayName" : "click-8.3.0-py3-none-any.whl",
+      "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=4b1f3e0e-f49e-4322-9b4d-e7caf27a8006",
+      "licenses" : [ "BSD 3" ],
+      "sha1" : "097f0bedc3576f6d7408516ec158505c45861ffb",
+      "vulnerabilities" : [ ],
+      "ignoredVulnerabilities" : [ ],
+      "keyUuid" : "4b1f3e0e-f49e-4322-9b4d-e7caf27a8006",
+      "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\click-8.3.0.dist-info",
+      "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+    }, {
+      "displayName" : "openpyxl-3.1.5-py2.py3-none-any.whl",
+      "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=a46a8cda-c24a-4c61-9156-17fa6a9fb5ed",
+      "licenses" : [ "MIT" ],
+      "sha1" : "36fc73575c36117615e27d7443458b1d02d593c7",
+      "vulnerabilities" : [ ],
+      "ignoredVulnerabilities" : [ ],
+      "keyUuid" : "a46a8cda-c24a-4c61-9156-17fa6a9fb5ed",
+      "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\openpyxl-3.1.5.dist-info",
+      "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+    }, {
+      "displayName" : "h11-0.16.0-py3-none-any.whl",
+      "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=9863e4c0-6bbf-4aef-95fe-85d6a56009f1",
+      "licenses" : [ "MIT" ],
+      "sha1" : "85c55a0fab05a1e1c94ce893467ef04cc0f8a62f",
+      "vulnerabilities" : [ ],
+      "ignoredVulnerabilities" : [ ],
+      "keyUuid" : "9863e4c0-6bbf-4aef-95fe-85d6a56009f1",
+      "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\h11-0.16.0.dist-info",
+      "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+    }, {
+      "displayName" : "pydantic_core-2.41.4-cp311-cp311-win_amd64.whl",
+      "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=2fdfc3c6-ae79-4cc9-9ad9-4c982458c7d7",
+      "licenses" : [ ],
+      "sha1" : "ce11026e802df9b93d1c526f3270b2d36f8408b7",
+      "vulnerabilities" : [ ],
+      "ignoredVulnerabilities" : [ ],
+      "keyUuid" : "2fdfc3c6-ae79-4cc9-9ad9-4c982458c7d7",
+      "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\pydantic_core-2.41.4.dist-info",
+      "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+    }, {
+      "displayName" : "pandas-2.3.3-cp310-cp310-macosx_10_9_x86_64.whl",
+      "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=79e61826-8445-41c3-b5ad-62c21bf01d3e",
+      "licenses" : [ "Python 2.0", "Apache 2.0", "MIT", "BSD 3" ],
+      "sha1" : "2b72bd73c6f775cf878393086368a2a286e6e768",
+      "vulnerabilities" : [ ],
+      "ignoredVulnerabilities" : [ ],
+      "keyUuid" : "79e61826-8445-41c3-b5ad-62c21bf01d3e",
+      "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\pandas-2.3.3.dist-info",
+      "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+    }, {
+      "displayName" : "uvicorn-0.37.0-py3-none-any.whl",
+      "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=d74d6cb8-94a6-4ce1-8154-f895e2bc7e5d",
+      "licenses" : [ "BSD 3" ],
+      "sha1" : "f27d29b1b338a14d09a38902349f5ab2c2b8f49f",
+      "vulnerabilities" : [ ],
+      "ignoredVulnerabilities" : [ ],
+      "keyUuid" : "d74d6cb8-94a6-4ce1-8154-f895e2bc7e5d",
+      "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\uvicorn-0.37.0.dist-info",
+      "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+    }, {
+      "displayName" : "typing_inspection-0.4.2-py3-none-any.whl",
+      "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=10835eae-5e5c-4a72-a4c2-d7ee6a1204b6",
+      "licenses" : [ "MIT" ],
+      "sha1" : "e26098755dffc3aaead1e9d696fcfe8a23877a3a",
+      "vulnerabilities" : [ ],
+      "ignoredVulnerabilities" : [ ],
+      "keyUuid" : "10835eae-5e5c-4a72-a4c2-d7ee6a1204b6",
+      "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\typing_inspection-0.4.2.dist-info",
+      "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+    }, {
+      "displayName" : "tzdata-2025.2-py2.py3-none-any.whl",
+      "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=8cc927ef-4b6e-4306-8269-6584fd732538",
+      "licenses" : [ "Apache 2.0" ],
+      "sha1" : "ee35670ca8d6ed79ae83e9e814402039f3c3c11d",
+      "vulnerabilities" : [ ],
+      "ignoredVulnerabilities" : [ ],
+      "keyUuid" : "8cc927ef-4b6e-4306-8269-6584fd732538",
+      "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\tzdata-2025.2.dist-info",
+      "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+    }, {
+      "displayName" : "pytz-2025.2-py2.py3-none-any.whl",
+      "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=60beaf35-7b8b-4ca6-b1cd-2353bf955da2",
+      "licenses" : [ "MIT" ],
+      "sha1" : "fe7938b9d92a0da600ee2af52538405e769fbca4",
+      "vulnerabilities" : [ ],
+      "ignoredVulnerabilities" : [ ],
+      "keyUuid" : "60beaf35-7b8b-4ca6-b1cd-2353bf955da2",
+      "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\pytz-2025.2.dist-info",
+      "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+    }, {
+      "displayName" : "pydantic-2.12.3-py3-none-any.whl",
+      "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=0d41d721-68c8-403d-be02-9e881fc6db12",
+      "licenses" : [ ],
+      "sha1" : "bd22711417ccb1f44259978a4edcba0e78093f2c",
+      "vulnerabilities" : [ ],
+      "ignoredVulnerabilities" : [ ],
+      "keyUuid" : "0d41d721-68c8-403d-be02-9e881fc6db12",
+      "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\pydantic-2.12.3.dist-info",
+      "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+    }, {
+      "displayName" : "idna-3.11-py3-none-any.whl",
+      "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=626de63b-389e-4bbd-80d8-189768a2b21b",
+      "licenses" : [ "BSD 3" ],
+      "sha1" : "b656add136d8a54445605020055e18a942352fa2",
+      "vulnerabilities" : [ ],
+      "ignoredVulnerabilities" : [ ],
+      "keyUuid" : "626de63b-389e-4bbd-80d8-189768a2b21b",
+      "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\idna-3.11.dist-info",
+      "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+    }, {
+      "displayName" : "gunicorn-23.0.0-py3-none-any.whl",
+      "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=01c38836-e399-4516-aab7-da27e6e46594",
+      "licenses" : [ "MIT" ],
+      "sha1" : "cd4c15b80880335f974e976ec1d293dd715aa457",
+      "vulnerabilities" : [ ],
+      "ignoredVulnerabilities" : [ ],
+      "keyUuid" : "01c38836-e399-4516-aab7-da27e6e46594",
+      "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\gunicorn-23.0.0.dist-info",
+      "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+    }, {
+      "displayName" : "et_xmlfile-2.0.0-py3-none-any.whl",
+      "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=2271ea20-6e54-4a09-86c5-1ad75cf0b2ad",
+      "licenses" : [ "Python 2.0", "MIT" ],
+      "sha1" : "faedf5285befc808795a60bd400c12f00c1a939d",
+      "vulnerabilities" : [ ],
+      "ignoredVulnerabilities" : [ ],
+      "keyUuid" : "2271ea20-6e54-4a09-86c5-1ad75cf0b2ad",
+      "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\et_xmlfile-2.0.0.dist-info",
+      "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+    }, {
+      "displayName" : "typing_extensions-4.15.0-py3-none-any.whl",
+      "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=6dfe75ba-37db-4713-bd42-7c078e1f06d6",
+      "licenses" : [ "Python Software Foundation License 2.0" ],
+      "sha1" : "807e4d7ccad443949cbe10eae99937fd71c2b0c8",
+      "vulnerabilities" : [ ],
+      "ignoredVulnerabilities" : [ ],
+      "keyUuid" : "6dfe75ba-37db-4713-bd42-7c078e1f06d6",
+      "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\typing_extensions-4.15.0.dist-info",
+      "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+    }, {
+      "displayName" : "fastapi-0.119.0-py3-none-any.whl",
+      "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=a71a9ce4-c027-4aff-ada4-0c82eccb695a",
+      "licenses" : [ "MIT" ],
+      "sha1" : "a5efb1faae6f2c8f870252b6094147e829fae21a",
+      "vulnerabilities" : [ ],
+      "ignoredVulnerabilities" : [ ],
+      "keyUuid" : "a71a9ce4-c027-4aff-ada4-0c82eccb695a",
+      "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\fastapi-0.119.0.dist-info",
+      "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+    }, {
+      "displayName" : "six-1.17.0-py2.py3-none-any.whl",
+      "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=f188a820-d84f-461b-9767-f27ef974dc2b",
+      "licenses" : [ "MIT" ],
+      "sha1" : "6e8f2653019f7cfb05196f8f08b9a905eab3d8dd",
+      "vulnerabilities" : [ ],
+      "ignoredVulnerabilities" : [ ],
+      "keyUuid" : "f188a820-d84f-461b-9767-f27ef974dc2b",
+      "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\six-1.17.0.dist-info",
+      "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+    }, {
+      "displayName" : "anyio-4.11.0-py3-none-any.whl",
+      "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=5b77ccc5-331a-494e-8908-650817fd2e07",
+      "licenses" : [ "MIT" ],
+      "sha1" : "a0d95ce13538610cc8011fe7687ae3bc0f885758",
+      "vulnerabilities" : [ ],
+      "ignoredVulnerabilities" : [ ],
+      "keyUuid" : "5b77ccc5-331a-494e-8908-650817fd2e07",
+      "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\anyio-4.11.0.dist-info",
+      "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+    }, {
+      "displayName" : "python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+      "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=71f6c098-e924-430d-8175-afe23e862847",
+      "licenses" : [ "Apache 2.0", "BSD 3" ],
+      "sha1" : "323a8e8de7e00a254fadae9c77b1264d56525178",
+      "vulnerabilities" : [ ],
+      "ignoredVulnerabilities" : [ ],
+      "keyUuid" : "71f6c098-e924-430d-8175-afe23e862847",
+      "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\python_dateutil-2.9.0.post0.dist-info",
+      "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+    }, {
+      "displayName" : "annotated_types-0.7.0-py3-none-any.whl",
+      "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=19a502dd-b0b9-4ea0-9ea3-fd12dd227e3e",
+      "licenses" : [ "MIT" ],
+      "sha1" : "ea2dd11b884eb6bc96d35b81d764010aa19eb952",
+      "vulnerabilities" : [ ],
+      "ignoredVulnerabilities" : [ ],
+      "keyUuid" : "19a502dd-b0b9-4ea0-9ea3-fd12dd227e3e",
+      "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\annotated_types-0.7.0.dist-info",
+      "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+    }, {
+      "displayName" : "starlette-0.48.0-py3-none-any.whl",
+      "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=71997ed4-5e89-4a5f-b0fd-3fa75b7798dc",
+      "licenses" : [ "BSD 3" ],
+      "sha1" : "57f2719980bd0d7de05316c10f2f0327c6373db8",
+      "vulnerabilities" : [ ],
+      "ignoredVulnerabilities" : [ ],
+      "keyUuid" : "71997ed4-5e89-4a5f-b0fd-3fa75b7798dc",
+      "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\starlette-0.48.0.dist-info",
+      "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+    }, {
+      "displayName" : "tabula_py-2.10.0-py3-none-any.whl",
+      "link" : "https://app-eu.whitesourcesoftware.com/Wss/WSS.html#!libraryDetails;project=5412320;uuid=b4fca367-00e6-448a-8a91-3753ed1724ea",
+      "licenses" : [ "MIT" ],
+      "sha1" : "b2c8775f82678274af26f7ceb10892aab82887c3",
+      "vulnerabilities" : [ ],
+      "ignoredVulnerabilities" : [ ],
+      "keyUuid" : "b4fca367-00e6-448a-8a91-3753ed1724ea",
+      "systemPath" : "C:\\Users\\oloor\\AppData\\Local\\Temp\\ws-ua_20251017174530_IUIHUH\\python_WAZIVB\\202510171745321\\env\\Lib\\site-packages\\tabula_py-2.10.0.dist-info",
+      "manifestFileSystemPath" : "C:\\Oscar\\Github\\AzureDevops\\FPtoP\\FPtoP%20-%20Backend%20-%20Python\\requirements.txt"
+    } ]
+  }
+}
