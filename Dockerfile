@@ -20,4 +20,5 @@ COPY app/ /app/app/
 EXPOSE 8500
 
 # Usar gunicorn para producción es más robusto
-CMD ["gunicorn", "-k", "uvicorn.workers.UvicornWorker", "-w", "2", "-b", "0.0.0.0:8500", "app.main:app"]
+
+CMD ["gunicorn", "-k", "uvicorn.workers.UvicornWorker", "-w", "2", "--timeout", "300", "-b", "0.0.0.0:8500", "app.main:app"]
