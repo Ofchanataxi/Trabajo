@@ -1,5 +1,6 @@
 import re
 import os
+import concurrent.futures
 from pypdf import PdfReader
 from typing import List, Dict, Optional
 from app.services.extractors.extractor_valor_dinamico import extraer_valor_dinamico
@@ -19,36 +20,25 @@ def _buscar_con_regex(texto: str) -> Optional[str]:
     return None
 
 def _buscar_tipo_producto_regex(texto: str) -> str:
-    """
-    Busca si el documento menciona explícitamente Tubing o Casing
-    en contextos de 'Product', 'Type' o 'Description'.
-    """
+    """Busca Tubing o Casing."""
     if not texto: return ""
-    
-    # Buscamos palabras clave asociadas a la definición del producto
-    # Priorizamos encontrar la palabra exacta Tubing o Casing
-    
-    # 1. Búsqueda directa simple (lo más efectivo en MTCs)
     texto_upper = texto.upper()
     if "TUBING" in texto_upper and "CASING" not in texto_upper:
         return "Tubing"
     if "CASING" in texto_upper and "TUBING" not in texto_upper:
         return "Casing"
         
-    # 2. Si ambos aparecen o ninguno, intentamos ser más específicos con Regex
     regexs = [
         r"Product\s*[:\.]?\s*([A-Za-z\s]+)",
         r"Commodity\s*[:\.]?\s*([A-Za-z\s]+)",
         r"Type\s*[:\.]?\s*([A-Za-z\s]+)"
     ]
-    
     for r in regexs:
         match = re.search(r, texto, re.IGNORECASE)
         if match:
             valor = match.group(1).upper()
             if "TUBING" in valor: return "Tubing"
             if "CASING" in valor: return "Casing"
-            
     return ""
 
 def _extraer_valor_de_pagina(
@@ -57,14 +47,11 @@ def _extraer_valor_de_pagina(
     valor_a_buscar: str,
     texto_pagina_cache: str = None
 ) -> str:
-    # --- OPTIMIZACIÓN: INTENTO RÁPIDO ---
     if texto_pagina_cache:
-        # print(f"   ↳ Buscando '{valor_a_buscar}' con Regex...")
         valor_rapido = _buscar_con_regex(texto_pagina_cache)
         if valor_rapido:
             return valor_rapido
 
-    # Fallback a Tabula (lento) si no se encuentra con regex
     try:
         resultado = extraer_valor_dinamico(
             pdf_path=path_mtc_pdf_original,
@@ -82,116 +69,118 @@ def _extraer_valor_de_pagina(
     except Exception:
         return "Error extracción"
 
-def extraer_steel_grade_de_mtc(files_info: List[tuple], coladas_a_buscar: List[str]) -> Dict[str, Dict[str, str]]:
+def _procesar_un_mtc(args) -> Dict[str, Dict[str, str]]:
     """
-    Devuelve: { "HEAT1": { "grade": "L80", "file": "mtc.pdf", "product_type": "Tubing" } }
+    Worker que procesa UN archivo MTC.
     """
-    resultados: Dict[str, Dict[str, str]] = {}
-    coladas_pendientes = set(coladas_a_buscar)
+    path_mtc, original_filename, coladas_a_buscar = args
+    resultados_archivo = {}
     
-    for path_mtc, original_filename in files_info:
-        if not coladas_pendientes:
-            break
+    path_mtc_normalizado = normalize_rotation(path_mtc)
+    mapa_pagina_info = {}
 
-        path_mtc_normalizado = normalize_rotation(path_mtc)
-        mapa_pagina_info: Dict[int, Dict] = {}
-
-        try:
-            reader = PdfReader(path_mtc_normalizado)
-            for i, page in enumerate(reader.pages):
-                if not coladas_pendientes:
-                    break
-                
-                texto_pagina = page.extract_text() or ""
-                
-                encontradas_aqui = []
-                for colada in list(coladas_pendientes):
-                    if colada in texto_pagina:
-                        encontradas_aqui.append(colada)
-                        coladas_pendientes.remove(colada)
-                
-                if encontradas_aqui:
-                    mapa_pagina_info[i + 1] = {
-                        "coladas": encontradas_aqui,
-                        "texto": texto_pagina
-                    }
-
-        except Exception as e:
-            print(f"Error leyendo texto de {original_filename}: {e}")
-            continue 
-
+    try:
+        reader = PdfReader(path_mtc_normalizado)
+        for i, page in enumerate(reader.pages):
+            texto_pagina = page.extract_text() or ""
+            
+            encontradas_aqui = [c for c in coladas_a_buscar if c in texto_pagina]
+            
+            if encontradas_aqui:
+                mapa_pagina_info[i + 1] = {
+                    "coladas": encontradas_aqui,
+                    "texto": texto_pagina
+                }
+        
         for page_num, info in mapa_pagina_info.items():
             coladas = info["coladas"]
             texto = info["texto"]
             
-            # 1. Buscamos el Steel Grade
             steel_grade = _extraer_valor_de_pagina(
                 path_mtc_pdf_original=str(path_mtc_normalizado),
                 page_num=page_num,
                 valor_a_buscar="Steel Grade",
                 texto_pagina_cache=texto
             )
-            
-            # 2. Buscamos el Tipo de Producto (Tubing/Casing) usando el mismo texto
             tipo_producto = _buscar_tipo_producto_regex(texto)
 
             for colada in coladas:
-                resultados[colada] = {
+                resultados_archivo[colada] = {
                     "grade": steel_grade, 
                     "file": original_filename,
-                    "product_type": tipo_producto # <--- Nuevo campo
+                    "product_type": tipo_producto
                 }
 
+    except Exception as e:
+        print(f"Error procesando {original_filename}: {e}")
+    finally:
         if str(path_mtc_normalizado) != str(path_mtc):
             try:
                 if os.path.exists(path_mtc_normalizado):
                     os.unlink(path_mtc_normalizado)
             except: pass
-
-    # Rellenar no encontrados
-    for colada in coladas_pendientes:
-        resultados[colada] = {"grade": "No encontrado", "file": "-", "product_type": ""}
-    
-    return resultados
-
-def buscar_coladas_en_pdfs(files_info: List[tuple], coladas_a_buscar: List[str]) -> Dict[str, str]:
-    resultados: Dict[str, str] = {}
-    coladas_pendientes = set(coladas_a_buscar)
-    
-    for path_pdf, original_filename in files_info:
-        if not coladas_pendientes:
-            break
-
-        path_normalizado = normalize_rotation(path_pdf)
-        
-        try:
-            reader = PdfReader(path_normalizado)
-            for page in reader.pages:
-                if not coladas_pendientes:
-                    break
-                
-                texto_pagina = page.extract_text() or ""
-                
-                encontradas_aqui = []
-                for colada in list(coladas_pendientes):
-                    if colada in texto_pagina:
-                        resultados[colada] = original_filename
-                        encontradas_aqui.append(colada)
-                
-                for c in encontradas_aqui:
-                    coladas_pendientes.remove(c)
-
-        except Exception as e:
-            print(f"Error leyendo archivo {original_filename}: {e}")
-            continue
             
+    return resultados_archivo
+
+def _procesar_un_itp(args) -> Dict[str, str]:
+    path_pdf, original_filename, coladas_a_buscar = args
+    resultados_archivo = {}
+    
+    path_normalizado = normalize_rotation(path_pdf)
+    try:
+        reader = PdfReader(path_normalizado)
+        for page in reader.pages:
+            texto_pagina = page.extract_text() or ""
+            for colada in coladas_a_buscar:
+                if colada in texto_pagina:
+                    resultados_archivo[colada] = original_filename
+                    
+    except Exception as e:
+        print(f"Error leyendo ITP {original_filename}: {e}")
+    finally:
         if str(path_normalizado) != str(path_pdf):
              try:
                 if os.path.exists(path_normalizado):
                     os.unlink(path_normalizado)
              except: pass
+             
+    return resultados_archivo
 
-    for colada in coladas_pendientes:
-        resultados[colada] = "-"
+def extraer_steel_grade_de_mtc(files_info: List[tuple], coladas_a_buscar: List[str]) -> Dict[str, Dict[str, str]]:
+    resultados_globales = {}
     
-    return resultados
+    work_items = [(path, fname, coladas_a_buscar) for path, fname in files_info]
+    
+    with concurrent.futures.ProcessPoolExecutor() as executor:
+        futures = [executor.submit(_procesar_un_mtc, item) for item in work_items]
+        
+        for future in concurrent.futures.as_completed(futures):
+            try:
+                resultados_globales.update(future.result())
+            except Exception as e:
+                print(f"Excepción en worker MTC: {e}")
+
+    for colada in coladas_a_buscar:
+        if colada not in resultados_globales:
+            resultados_globales[colada] = {"grade": "No encontrado", "file": "-", "product_type": ""}
+            
+    return resultados_globales
+
+def buscar_coladas_en_pdfs(files_info: List[tuple], coladas_a_buscar: List[str]) -> Dict[str, str]:
+    resultados_globales = {}
+    work_items = [(path, fname, coladas_a_buscar) for path, fname in files_info]
+    
+    with concurrent.futures.ProcessPoolExecutor() as executor:
+        futures = [executor.submit(_procesar_un_itp, item) for item in work_items]
+        
+        for future in concurrent.futures.as_completed(futures):
+            try:
+                resultados_globales.update(future.result())
+            except Exception as e:
+                print(f"Excepción en worker ITP: {e}")
+
+    for colada in coladas_a_buscar:
+        if colada not in resultados_globales:
+            resultados_globales[colada] = "-"
+            
+    return resultados_globales
